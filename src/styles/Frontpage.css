@@ -1,0 +1,587 @@
+.ImageRow {
+  display: flex;
+  justify-content: center;
+}
+
+.HiveConstruct {
+  width: 90%;
+  position: relative;
+  margin: auto;
+  height: calc(100% - 120px);
+  background-image: url("/frontpage/SVG/5xWabe.svg");
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+.HiveImageBg1 {
+  position: absolute;
+  left: 15rem;
+}
+
+.HiveImageBg2 {
+  position: absolute;
+  right: 15rem;
+}
+
+.HiveImageBg1 img {
+  width: 10rem;
+  opacity: 0.5;
+  filter: blur(0.1rem);
+  animation: dive 5s linear infinite;
+}
+
+.HiveImageBg2 img {
+  width: 10rem;
+  opacity: 0.5;
+  filter: blur(0.1rem);
+}
+
+@keyframes float {
+    from { transform: rotate(0deg) translateX(3px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(3px) rotate(-360deg); }
+}
+
+@keyframes float2 {
+    from { transform: rotate(0deg) translateX(-2px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(-2px) rotate(-360deg); }
+}
+
+@keyframes float3 {
+    from { transform: rotate(0deg) translateX(1px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(1px) rotate(-360deg); }
+}
+
+@keyframes dive {
+    0% { transform: scale(1) }
+    50% { transform: scale(0.95) }
+    100% { transform: scale(1) }
+}
+
+.HiveImage1 {
+  position: absolute;
+  opacity: 1;
+  left: 1rem;
+  animation: float 10s linear infinite;
+}
+
+.HiveImage1 img {
+  width: 16rem;
+}
+
+.HiveImage2 {
+  position: absolute;
+  opacity: 0.9;
+  left: 14rem;
+  top: 14rem;
+  filter: blur(0.01rem);
+  transition: all 0.5s;
+  animation: float2 8s linear infinite;
+}
+
+.HiveImage2 img {
+  position: relative;
+  width: 12rem;
+}
+
+.HiveImage3 {
+  position: absolute;
+  filter: blur(0.02rem);
+  opacity: 0.8;
+  top: 6rem;
+  left: 25rem;
+  transition: all 0.5s;
+  animation: float3 5s linear infinite;
+}
+
+.HiveImage3 img {
+  position: relative;
+  width: 10rem;
+}
+
+.HiveImage4 {
+  position: absolute;
+  opacity: 1;
+  right: 1rem;
+  animation: float 7s linear infinite;
+}
+
+.HiveImage4 img {
+  width: 16rem;
+}
+
+.HiveImage5 {
+  position: absolute;
+  opacity: 0.9;
+  right: 14rem;
+  top: 14rem;
+  filter: blur(0.01rem);
+  transition: all 0.5s;
+  animation: float2 8s linear infinite;
+}
+
+.HiveImage5 img {
+  position: relative;
+  width: 12rem;
+}
+
+.HiveImage6 {
+  position: absolute;
+  filter: blur(0.02rem);
+  opacity: 0.8;
+  top: 6rem;
+  right: 25rem;
+  transition: all 0.5s;
+  animation: float3 10s linear infinite;
+}
+
+.HiveImage6 img {
+  width: 10rem;
+}
+
+.FrontItem1 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #00000000, #1A395266);
+}
+
+.FrontItem2 {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #00000000, #F6C30D22);
+}
+
+.HoneyCombs1 {
+  position: relative;
+  width: 30rem;
+  min-height: 20rem;
+  margin: 0 3rem auto 3rem;
+}
+
+.HoneyCombs2 {
+  position: relative;
+  width: 30rem;
+  min-height: 20rem;
+  margin: auto 3rem;
+}
+
+.HiveContent {
+  color: white;
+  margin: 0 6.3rem 3.3rem 6.3rem;
+  width: calc(50% - 12.6rem);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.HiveContent div {
+  margin: auto;
+}
+
+.QuickStats {
+  width: 60%;
+  color: white;
+  margin: 50px 100px;
+}
+
+.QuickStatsContent {
+  margin: auto;
+}
+
+.IntroText {
+  text-align: justify;
+  font-size: 24px;
+  padding: 1rem;
+}
+
+.HiveContent a {
+  color: #4a82af;
+}
+
+.HiveContent h1 {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.FrontpageLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.FrontpageButton {
+  position: relative;
+  color: black;
+  font-size: 14pt;
+  width: 211px;
+  height: 35px;
+  background-image: url("/frontpage/SVG/balken.svg");
+  background-repeat: no-repeat;
+  line-height: 35px;
+  margin: auto 60px;
+}
+
+.TopSaleItem {
+  display: flex;
+  min-width: 45rem;
+  margin: auto;
+  justify-content: center;
+}
+
+.TopSaleImage {
+  height: 16rem;
+}
+
+.TopSaleImage img {
+  max-height: 16rem;
+}
+
+.TopSaleTransfer {
+  display: flex;
+  justify-content: center;
+}
+
+.TopSaleTransfer div {
+  margin: 5px
+}
+
+.TopSaleTransfer .NextLink {
+  color: #4a82af;
+  opacity: 0.8;
+}
+
+.TopSaleTransfer .NextLink:hover {
+  opacity: 1;
+}
+
+.TopSaleContent {
+  width: 50%;
+}
+
+.TopSaleName {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.TopSalePrice {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-shadow: 0 0 20px #4a82af;
+}
+
+.TopSaleTransfer {
+  line-height: 30px;
+}
+
+.WelcomeHeader {
+  width: 100%;
+  margin: 0 auto 50px auto;
+}
+
+.ButtonIcon {
+  position: absolute;
+  width: 56px;
+  height: 63px;
+  top: calc((35px - 63px) / 2);
+}
+
+.ButtonIcon.Inner {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  top: calc((35px - 33px) / 2);
+}
+
+.FrontpageItem {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.FrontpageItem img {
+  width: 80%;
+}
+
+.ButtonIcon.Left {
+  left: -30px;
+}
+
+.ButtonIcon.Left.Inner {
+  left: -20px;
+}
+
+.ButtonIcon.Right {
+  left: 190px;
+}
+
+.ButtonIcon.Inner {
+  left: 200px;
+}
+
+.AssetAetherIcon {
+  position: absolute;
+  left: 10rem;
+  top: 1.75rem;
+  width: 36px;
+  height: 39px;
+}
+
+.AssetUpliftiumIcon {
+  position: absolute;
+  left: 10rem;
+  top: 1.75rem;
+  width: 36px;
+  height: 39px;
+}
+
+.AssetAetherIcon img {
+  position: absolute;
+}
+
+.AssetUpliftiumIcon img {
+  position: absolute;
+}
+
+.AetherIconValue {
+  position: absolute;
+  z-index: 10;
+  font-size: 11px;
+  top: 20px;
+  text-align: center;
+  width: 36px;
+}
+
+.UpliftiumIconValue {
+  position: absolute;
+  z-index: 10;
+  font-size: 11px;
+  top: 20px;
+  text-align: center;
+  width: 36px;
+}
+
+.AssetAetherIcon img:first-child {
+  width: 36px;
+  height: 39px;
+}
+
+.AssetUpliftiumIcon img:first-child {
+  width: 36px;
+  height: 39px;
+}
+
+.AssetAetherIcon img:nth-child(2) {
+  width: 22px;
+  height: 22px;
+  top: 3px;
+}
+
+.AssetUpliftiumIcon img:nth-child(2) {
+  width: 22px;
+  height: 22px;
+  top: 3px;
+  left: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .HiveConstruct {
+    width: 100%;
+    margin: auto;
+  }
+
+  .FrontpageItem {
+    width: 100%;
+  }
+
+  .FrontpageItem img {
+    width: 100%;
+    height: auto;
+  }
+
+  .FrontItem1, .FrontItem2 {
+    display: block;
+    height: 60rem;
+  }
+
+  .HoneyCombs1 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .HoneyCombs2 {
+    width: 100%;
+    margin: auto;
+    height: 30rem;
+  }
+
+  .HiveContent {
+    width: calc(100% - 40px);
+    height: auto;
+    margin: auto 1.2rem;
+  }
+
+  .HiveImage1 {
+  }
+
+  .HiveImage1 img {
+    width: 12rem;
+  }
+
+  .HiveImage2 {
+    left: 11rem;
+    top: 11rem;
+  }
+
+  .HiveImage2 img {
+    width: 10rem;
+  }
+
+  .HiveImage3 {
+    left: 15rem;
+    top: 0;
+  }
+
+  .HiveImage3 img {
+    width: 8rem;
+  }
+
+  .HiveImageBg1 {
+    left: 10rem;
+    top: 5rem;
+    filter: blur(0.5rem);
+  }
+
+  .HiveImage4 {
+    right: 8rem;
+  }
+
+  .HiveImage4 img {
+    width: 12rem;
+  }
+
+  .HiveImage5 {
+    right: 16rem;
+    top: 11rem;
+  }
+
+  .HiveImage5 img {
+    width: 10rem;
+  }
+
+  .HiveImage6 {
+    right: 22rem;
+    top: 0;
+  }
+
+  .HiveImage6 img {
+    width: 8rem;
+  }
+
+  .HiveImageBg2 {
+    right: 10rem;
+    top: 5rem;
+    filter: blur(0.5rem);
+  }
+
+  .TopSale h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .IntroText {
+    font-size: 16px;
+  }
+
+  .TopSaleItem {
+    display: block;
+  }
+
+  .TopSaleImage {
+    width: calc(100% - 20px);
+    margin: 10px;
+  }
+
+  .TopSaleContent {
+    width: 100%;
+  }
+
+  .TopSaleName {
+    margin-bottom: 10px;
+  }
+
+  .TopSaleTransfer {
+    display: none;
+  }
+
+  .FrontItem2 .HiveContent {
+    position: relative;
+    top: 50%;
+  }
+
+  .HoneyCombs2 {
+    position: relative;
+    top: -49%;
+    left: 30%;
+  }
+
+  .QuickStats {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .FrontpageButton {
+    width: 140px;
+    height: 23px;
+    line-height: 23px;
+    margin: auto;
+  }
+
+  .FrontpageButton:first-child {
+    margin: auto auto auto 10px;
+  }
+
+  .FrontpageButton:last-child {
+    margin: auto 10px auto auto;
+  }
+
+  .ButtonIcon {
+    position: absolute;
+    width: 37px;
+    height: 42px;
+    top: calc((23px - 42px) / 2);
+  }
+
+  .ButtonIcon.Inner {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: calc((23px - 22px) / 2);
+  }
+
+  .ButtonIcon.Left {
+    left: -20px;
+  }
+
+  .ButtonIcon.Left.Inner {
+    left: -13px;
+  }
+
+  .ButtonIcon.Right {
+    left: 126px;
+  }
+
+  .ButtonIcon.Inner {
+    left: 133px;
+  }
+}

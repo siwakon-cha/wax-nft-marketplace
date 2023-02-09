@@ -1,0 +1,99 @@
+.Notifications {
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+}
+
+.NotificationIcon.Inactive {
+  opacity: 0.85;
+}
+
+.NotificationIcon.Selected {
+  opacity: 1;
+}
+
+.NotificationIcon.Inactive:hover {
+  opacity: 1;
+}
+
+.NotificationIcon {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+}
+
+.NotificationInfo {
+  margin: auto;
+}
+
+.NotificationMessage {
+  font-weight: bold;
+  color: #FEFEFE;
+  line-height: 30px;
+  font-size: 10pt;
+}
+
+.NotificationsContainer {
+  position: absolute;
+  top: 55px;
+  width: 300px;
+  height: 500px;
+  left: calc(100% - 300px);
+  overflow-y: auto;
+  z-index: 50;
+  background-color: rgb(20, 20, 20);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: none;
+}
+
+.NotificationsContainer.show {
+  display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+  .NotificationsContainer {
+    top: 41px;
+  }
+}
+
+.Notification {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 5px;
+}
+
+.NotificationAsset {
+  color: #FEFEFE;
+  display: flex;
+}
+
+.Notification:nth-child(odd) {
+  background-color: #1A3952;
+}
+
+.NotificationAsset a {
+  font-size: 12px;
+}
+
+.NotificationAsset a:hover {
+  font-size: 12px;
+}
+
+.NotificationAsset td:first-child {
+  color: #F6C30D;
+  text-align: left;
+}
+
+.NotificationImage {
+  margin: 5px;
+  min-width: 45px;
+}
+
+.NotificationImage img {
+  max-height: 60px;
+  max-width: 45px;
+}

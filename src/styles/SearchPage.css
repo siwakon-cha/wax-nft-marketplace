@@ -1,0 +1,16 @@
+.ResultRow .AssetList {
+  width: 100%;
+  min-width: 16rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ResultRow {
+  margin-bottom: 20px;
+}
+
+.ResultRowTitle {
+  line-height: 26px;
+  display: flex;
+  justify-content: center;
+}

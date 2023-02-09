@@ -1,0 +1,161 @@
+#AccountPage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.BuyButton {
+  width: 100px;
+}
+
+.FTContainer {
+  position: relative;
+  width: auto;
+  max-width: 90%;
+  margin: auto;
+}
+
+.FTContainer table {
+  width: 100%;
+  line-height: 3;
+}
+
+.FTContainer td {
+  text-align: center;
+  width: auto;
+  overflow-x: auto;
+  color: #FEFEFE;
+}
+
+.FTContainer td:first-child{
+  text-align: left;
+}
+
+.BalanceContainer {
+  position: relative;
+  width: auto;
+  max-width: 900px;
+  margin: auto;
+}
+
+.BalanceContainer table {
+  width: 100%;
+  line-height: 3;
+}
+
+.BalanceContainer td:first-child{
+  text-align: left;
+}
+
+.BalanceContainer td:nth-last-child(2){
+  text-align: right;
+  width: 150px;
+  overflow-x: auto;
+  color: #FEFEFE;
+}
+
+.BalanceContainer td:nth-last-child(3){
+  text-align: right;
+  width: 150px;
+  overflow-x: auto;
+  color: #FEFEFE;
+}
+
+.StatsContainer {
+  position: relative;
+  width: auto;
+  max-width: 900px;
+  margin: auto;
+}
+
+.StatsContainer img {
+  height: 2rem;
+  top: 0.5rem;
+  position: relative;
+}
+
+.StatsContainer td:first-child {
+  text-align: left;
+}
+
+.StatsContainer td:nth-last-child(2) {
+  text-align: right;
+  width: 120px;
+  overflow-x: auto;
+  color: #FEFEFE;
+}
+
+.StatsContainer td:nth-last-child(3) {
+  text-align: right;
+  width: 120px;
+  overflow-x: auto;
+  color: #FEFEFE;
+}
+
+.StatsContainer table {
+  width: 100%;
+  line-height: 3;
+}
+
+.TradeHistory {
+  width: 100%;
+  height: 500px;
+}
+
+.SetsTable {
+  position: relative;
+  width: auto;
+  max-width: 900px;
+  margin: auto;
+}
+
+.SetsTable td:first-child, .SetsTable th:first-child {
+  text-align: left;
+  color: #F6C30D;
+}
+
+.SetsTable td, .SetsTable th {
+  text-align: right;
+  width: 120px;
+  overflow-x: auto;
+  color: #FEFEFE;
+}
+
+.SetsTable table {
+  width: 100%;
+  line-height: 3;
+}
+
+.TradeHistory .highcharts-container {
+  margin-top: auto;
+  width: calc(100% - 720px);
+  height: 500px;
+}
+
+.TradingHistoryTable a {
+  color: #1A3952;
+}
+
+.PackIcon img {
+  max-height: 100px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Account {
+    display: block;
+    height: calc(100% - 200px);
+    overflow-y: auto;
+  }
+
+  .TradeHistory {
+    width: calc(100% - 30px);
+    margin: auto;
+  }
+
+  .TradeHistory .highcharts-container {
+    width: 150%;
+  }
+
+  .TradeHistory .highcharts-plot-background {
+    width: 100%;
+  }
+}

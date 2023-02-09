@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_6276" data-name="Group 6276" transform="translate(-206 -579)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(206 579)">
+      <g id="shield">
+        <rect id="Rectangle_3665" data-name="Rectangle 3665" width="24" height="24" fill="#15b797" opacity="0"/>
+        <path id="Path_120" data-name="Path 120" d="M12,21.85a2,2,0,0,1-1-.25l-.3-.17A15.17,15.17,0,0,1,3,8.23V8.09A2,2,0,0,1,4,6.34L11,2.4a2,2,0,0,1,2,0l7,3.94a2,2,0,0,1,1,1.75v.14a15.17,15.17,0,0,1-7.72,13.2l-.3.17A2,2,0,0,1,12,21.85Zm0-17.7L5,8.09v.14a13.15,13.15,0,0,0,6.7,11.45l.3.17.3-.17A13.15,13.15,0,0,0,19,8.23V8.09Z" fill="#15b797"/>
+      </g>
+    </g>
+    <g id="Layer_2-2" data-name="Layer 2" transform="translate(212.5 585.5)">
+      <g id="checkmark">
+        <rect id="Rectangle_3666" data-name="Rectangle 3666" width="12" height="12" fill="#15b797" opacity="0"/>
+        <path id="Path_121" data-name="Path 121" d="M6.929,11.978a.5.5,0,0,1-.365-.16L4.134,9.233a.5.5,0,1,1,.73-.685l2.06,2.2,4.2-4.6a.5.5,0,1,1,.74.67l-4.57,5a.5.5,0,0,1-.365.165Z" transform="translate(-1.999 -2.978)" fill="#15b797" stroke="#15b797" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

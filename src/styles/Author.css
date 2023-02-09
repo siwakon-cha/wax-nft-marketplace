@@ -1,0 +1,77 @@
+.EditAuthorDetails {
+    text-align: left;
+    width: 40%;
+    margin: 1rem 5%;
+    color: white;
+}
+
+.AuthorEditImage {
+  position: relative;
+  display: block;
+  width: 22rem;
+  margin: auto 5%;
+  font-size: 0.8rem;
+  color: white;
+  height: 22rem;
+}
+
+.AuthorEditImage img {
+  max-width: 20rem;
+  max-height: 20rem;
+  margin: auto;
+}
+
+.InfoBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.InfoBox {
+    width: 10rem;
+    height: 8rem;
+    text-align: center;
+    line-height: 8rem;
+    border-radius: 1rem;
+    background-color: #262626BB;
+    backdrop-filter: blur(2px);
+    display: block;
+    color: #F6C30D;
+    font-size: 10pt;
+    padding: 1rem;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.InfoBox:hover {
+    background-color: #262626CC;
+}
+
+.InfoBox .LoadingIndicator {
+    position: relative;
+    top: 10px;
+    display: block;
+    margin-top: auto;
+}
+
+.Highlighted {
+    color: #F6C30D;
+}
+
+.InfoBox span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .InfoBoxes {
+        display: block;
+    }
+
+    .InfoBox {
+        margin: 20px auto;
+    }
+}

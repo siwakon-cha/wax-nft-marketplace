@@ -1,0 +1,140 @@
+.Profile {
+  height: calc(100% - 140px);
+  width: 96%;
+  overflow-x: hidden;
+  padding-top: 10px;
+  margin: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.SearchSettings.show .SettingsButton {
+  display: none;
+}
+
+.SetLink {
+  color: #4a82af;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.SetLink:hover {
+  opacity: 1.0;
+}
+
+.SetsField.hide {
+    width: calc(100% + 40px);
+    transform: translateX(-40px);
+    position: relative;
+    transition: width 0.2s, transform 0.2s;
+}
+
+.StaticSearchSettings {
+    min-width: 1290px;
+    height: 70px;
+    display: inline-grid;
+}
+
+.StaticSearchSettings.PageComponent {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.TopAssetCase .AssetPreview {
+  margin: 20px;
+}
+
+.TopInfoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.UserStatsContainer .tabl {
+  height: 33px;
+  margin: 0;
+}
+
+.PageComponent h2 {
+  margin: 5px;
+}
+
+.SearchIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.AssetPreviewInfo .SearchIcon {
+  top: 4px;
+  width: 16px;
+  height: 16px;
+}
+
+.UserStats {
+  position: relative;
+  /* top: 15px; */
+  font-weight: lighter;
+  text-align: right;
+  color: #FEFEFE;
+  font-size: 10pt;
+  width: 100%;
+  height: 18px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5px;
+  border-top: 1px solid #F6C30D22;
+  border-bottom: 1px solid #F6C30D22;
+}
+
+.GeneralStats td {
+  width: 33%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .SetInfo {
+    height: 160px;
+    flex-wrap: wrap;
+  }
+
+  .SetInfoItem {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Profile {
+    height: calc(100% - 200px);
+    width: 100%;
+    padding: 0;
+  }
+
+  .SetValue {
+    flex-wrap: wrap;
+    font-size: 12px;
+  }
+
+  .SetValue div {
+    margin: auto 20px;
+  }
+
+  .SetsField.hide {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  .StaticSearchSettings {
+    width: auto;
+    height: 150px;
+    min-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .TopInfoContainer {
+    display: block;
+  }
+
+  .UserStatsContainer {
+    width: 100%;
+  }
+}

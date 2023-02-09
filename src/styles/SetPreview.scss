@@ -1,0 +1,101 @@
+.SetPreview {
+  text-align: center;
+  display: block;
+  font-size: 12pt;
+  overflow-wrap: break-word;
+  margin: 1rem 1rem 2rem 1rem;
+  padding: 0.3rem;
+  width: 20rem;
+  min-width: 20rem;
+  height: 24rem;
+  border-radius: 1rem;
+  background-color: #262626BB;
+  box-shadow: 5px 5px 20px -5px #000000AA;
+  backdrop-filter: blur(2px);
+  position: relative;
+}
+
+.SetBackground {
+  position: absolute;
+  z-index: -1;
+}
+
+.SetBackground img {
+  max-width: 20rem;
+  max-height: 20rem;
+}
+
+.SetImages {
+  width: 18rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.SetMainImage {
+  margin: auto;
+  height: 20rem;
+  width: 9rem;
+  display: flex;
+}
+
+.CollectionList.Embedded {
+  width: 100%;
+  display: flex;
+  overflow-y: auto;
+  height: fit-content;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  justify-content: flex-start;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .CollectionList.Embedded {
+    display: inline;
+  }
+}
+
+.SetSecondaryImages {
+  height: 20rem;
+  width: 9rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Image1 {
+  display: flex;
+  margin: 0.1rem;
+}
+
+.Image1 img {
+  max-width: 10rem;
+  max-height: 20rem;
+  margin: auto;
+}
+
+.Image2 {
+  width: 5rem;
+  display: flex;
+  max-height: 10rem;
+  height: fit-content;
+  margin: auto;
+}
+
+.Image2 img {
+  max-width: 5rem;
+  max-height: 10rem;
+}
+
+.Image3 {
+  width: 5rem;
+  display: flex;
+  max-height: 10rem;
+  height: fit-content;
+  margin: auto;
+}
+
+.Image3 img {
+  max-width: 5rem;
+  max-height: 10rem;
+}

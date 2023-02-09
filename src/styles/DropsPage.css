@@ -1,0 +1,44 @@
+.ResultRow .AssetList {
+  width: 100%;
+  min-width: 16rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ResultRow {
+  margin-bottom: 20px;
+}
+
+.ResultRowTitle {
+  line-height: 26px;
+  display: flex;
+  justify-content: center;
+}
+
+.Drop {
+  display: flex;
+}
+
+.Drop a {
+  color: #F6C30D;
+  font-weight: bold;
+}
+
+.Drop .AssetImage img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Drop {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .Drop .AssetDetails {
+    margin: 50px 5% 200px 5%;
+  }
+}
+
+

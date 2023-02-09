@@ -1,0 +1,198 @@
+.SubNavigationContainer a, .SubNavigationContainer div {
+  position: relative;
+  font-size: 12px;
+  width: 100%;
+  height: 30px;
+  padding-top: 10px;
+  display: block;
+  color: #FEFEFE;
+  text-decoration: None;
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.SubNav {
+  width: 100%;
+  position: relative;
+  font-size: 12px;
+  color: #FEFEFE;
+}
+
+.SubSideNavigationContainer div {
+  text-align: left;
+  line-height: 23px;
+}
+
+.SubSideNavigationContainer.hide {
+  height: 0;
+}
+
+.SubNavigationContainer a:hover, .SubNavigationContainer div:hover {
+  font-size: 12px;
+  opacity: 1;
+}
+
+.LogoutButton {
+  font-size: 12px;
+  line-height: 26px;
+  display: flex;
+}
+
+.Logo {
+  position: relative;
+  height: 80px;
+  opacity: 1;
+}
+
+.Logo img {
+  height: 60px;
+  margin: 10px 50px;
+}
+
+.BottomContainer {
+  height: 15%;
+}
+
+.SideNavigationItem {
+  position: relative;
+  display: flex;
+  width: 60%;
+  margin-left: 15%;
+  line-height: 26px;
+  margin-top: 25px;
+  padding-bottom: 10px;
+}
+
+.SideNavigationItem .Icon, .SideNavigationItem .LanguageElement {
+  margin-right: 20px;
+}
+
+.LanguagePicker {
+  position: absolute;
+  width: 11rem;
+  display: flex;
+  flex-wrap: wrap;
+  top: 1.5rem;
+  background-image: linear-gradient(to bottom left, #1A3952DD 50%, #472A00EE);
+  border-radius: 1rem;
+  z-index: 70;
+}
+
+.FlagIcon {
+  margin: auto 0.5rem;
+}
+
+.SideNavigationItem .SubNav {
+  text-align: left;
+}
+
+.SubNavigationContainer {
+  position: absolute;
+  height: auto;
+  width: 120%;
+  min-width: 120px;
+  left: -20px;
+  top: 45px;
+  margin-top: 10px;
+  z-index: 50;
+  background-color: rgb(20, 20, 20);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top: 1px solid #F6C30D22;
+  font-size: 12px;
+  display: none;
+}
+
+.NavigationItem:hover .SubNavigationContainer {
+  display: block;
+}
+
+.NavigationItem {
+  position: relative;
+  display: flex;
+  line-height: 40px;
+  height: 40px;
+  margin: auto 20px;
+  cursor: pointer;
+}
+
+.Navigation span {
+  color: #FEFEFE;
+}
+
+.LanguageElement {
+  position: relative;
+  height: 26px;
+  width: 20px;
+  margin: auto 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.LanguageElement:hover {
+}
+
+.LanguageElement .Dropdown-root {
+  display: block;
+  justify-content: normal;
+  width: 20px;
+}
+
+.LanguageElement .Dropdown-arrow {
+  display: none;
+}
+
+.LanguageElement .Dropdown-placeholder {
+  min-width: 20px;
+  max-width: 20px;
+  top: 0;
+}
+
+.LanguageElement .Dropdown-control {
+  height: 21px;
+  width: 20px;
+  font-size: 14px;
+  border-bottom: 1px solid #FEFEFE;
+  border-radius: 0;
+  color: #FEFEFE;
+  text-align: center;
+  padding: 0;
+}
+
+.LanguageElement .Dropdown-menu {
+  background-color: #1A1A1A;
+  border: none;
+  width: 60px;
+  top: 22px;
+  left: -20px;
+  z-index: 20;
+  text-align: center;
+  color: #FEFEFE;
+  font-size: 14px;
+}
+
+.LanguageElement {
+  font-size: 10pt;
+}
+
+.LanguageElement .Dropdown-option {
+  padding: 0;
+  height: 18px;
+  font-size: 10px;
+  line-height: 18px;
+  color: white;
+  background-color: #1A3952;
+}
+
+.LanguageElement .Dropdown-option:nth-child(3) {
+  font-size: 10px;
+}
+
+.LanguageElement .Dropdown-option:nth-child(4) {
+  font-size: 10px;
+}
+
+.LanguageElement .Dropdown-option:nth-child(5) {
+  font-size: 10px;
+}

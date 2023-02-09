@@ -1,0 +1,95 @@
+{
+  "name": "asset-explorer",
+  "version": "3.8.5",
+  "proxy": "http://127.0.0.1:5000/",
+  "private": true,
+  "main": "index.js",
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "node": {
+    "fs": "empty"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@eosdacio/ual-wax": "^1.5.1",
+    "@google/model-viewer": "^1.8.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "autoprefixer": "^10.3.2",
+    "axios": "^0.21.4",
+    "classnames": "^2.3.1",
+    "express": "^4.17.1",
+    "highcharts": "^9.2.2",
+    "highcharts-react-official": "^3.0.0",
+    "http-proxy-middleware": "^2.0.1",
+    "i18next": "^20.6.1",
+    "moment": "^2.29.1",
+    "next": "^11.1.2",
+    "postcss": "^8.3.6",
+    "react": "17.0.2",
+    "react-async": "^10.0.1",
+    "react-bootstrap": "^1.6.3",
+    "react-cookie-consent": "^6.3.0",
+    "react-counter-input": "^0.2.1",
+    "react-countup": "^5.2.0",
+    "react-csv": "^2.0.3",
+    "react-dom": "^17.0.2",
+    "react-dropdown": "^1.9.2",
+    "react-i18next": "^11.12.0",
+    "react-image": "^4.0.3",
+    "react-lazy-load": "^3.1.13",
+    "react-markdown": "^7.0.1",
+    "react-modal": "^3.14.3",
+    "react-query": "^3.23.2",
+    "react-render-as-image": "^1.1.1",
+    "react-share": "^4.4.0",
+    "react-tooltip": "^4.2.21",
+    "sass": "^1.39.2",
+    "superagent": "*",
+    "tailwindcss": "^2.2.7",
+    "ual-anchor": "^1.0.9",
+    "ual-ledger": "^0.3.0",
+    "ual-reactjs-renderer": "^0.3.1",
+    "ual-scatter": "^0.3.0",
+    "ual-starteos": "^0.3.1",
+    "ual-wombat": "^0.3.3",
+    "yarn": "^1.22.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "babel-eslint": "10.1.0",
+    "eslint": "7.32.0",
+    "eslint-config-react-app": "6.0.0",
+    "eslint-plugin-flowtype": "5.9.0",
+    "eslint-plugin-import": "2.24.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.24.0",
+    "eslint-plugin-react-hooks": "4.2.0"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
